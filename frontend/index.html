@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patent Infringement Checker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Patent Infringement Checker</h1>
+    <form id="infringementForm">
+      <label for="patentId">Patent ID:</label>
+      <input type="text" id="patentId" name="patentId" required />
+      <label for="companyName">Company Name:</label>
+      <input type="text" id="companyName" name="companyName" required />
+      <button type="submit">Check Infringement</button>
+    </form>
+    <div id="results"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
